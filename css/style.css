@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+    background: rgb(0,27,46);
+    background: linear-gradient(180deg, rgba(0,27,46,1) 14%, rgb(1, 119, 204) 60%, rgba(0,33,57,1) 98%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:#FFF;
+    font-family: sans-serif;
+   
+}
+.bcgclipe{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: (0,0,0,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    
+    
+}
+
+.linkbio{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 40px auto;
+    gap: 5px;
+    
+}
+.imglogo{
+    width: 150px;
+    height: 150px;
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 50%;
+    vertical-align: middle;
+    background: #FFF;
+}
+
+.iconf .iconf-a:hover{
+    background:  rgba(0,0,0,1);
+    
+}
+h3{
+    color: #fff;
+    font-size: 20px;
+    
+    
+}
+.iconf{
+    color: #fff ;
+    margin: 15px auto;
+    width: 40%;
+    text-align: center;
+}
+.iconf .iconf-a{
+position: relative;
+border: solid 2px;
+padding: 15px;
+border-radius: 40px;
+margin: 17px 0;
+}
+.iconf .iconf-a i{
+    position: absolute;
+    left: 25px;
+    font-size: 23px;
+    line-height: 80%;
+    
+}   
+.iconf a{
+    text-decoration:none;
+    text-transform: uppercase;
+}
+.iconf-a{
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 4%, rgba(1,119,204,1) 78%);
+}
+
+@media (max-width: 1080px) {
+    .c1025 {
+     display: none;
+    }
+}
